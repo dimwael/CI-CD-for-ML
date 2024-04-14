@@ -17,7 +17,7 @@ jobs:
         run: make install
       - name: Format
         run: make format
-      - name: create directory
+      - name: create directories
         run: mkdir Results
       - name: Train
         run: make train
